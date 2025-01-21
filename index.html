@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Legais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4a90e2;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .video-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .video-card iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        .video-title {
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alguns Vídeos Legais</h1>
+    </header>
+    
+    <div class="video-grid">
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/CBl4OrvfmVY" title="Vídeo 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        </div>
+        <div class="video-card">
+            <iframe width="424" height="238" src="https://www.youtube.com/embed/HHWCh9pmyio" title="A Hipótese da Floresta Negra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+           
+        </div>
+        <div class="video-card">
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/af_0SmazGwo" title="A ideia mais POLÊMICA da ciência" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+        </div>
+        <div class="video-card">
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/Zb1CWnLQHvs" title="Como uma inteligência artificial sabe como você é em 8K?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+        </div>
+        <div class="video-card">
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/AQv0IPKXAfQ" title="Esse é o FUTURO dos computadores?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+        </div>
+        <div class="video-card">
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/dKWpPPMiuYY" title="O que acontece se você NUNCA dormir?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>           
+        </div>
+        <!-- Adicione mais vídeos conforme necessário -->
+    </div>
+
+    <footer>
+        &copy; 2025 Vídeos Legais. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
